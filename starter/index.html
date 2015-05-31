@@ -5,20 +5,33 @@
 
   <title>unquote</title>
 
-  <meta name="viewport"
-  content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
 
   <link rel="stylesheet" href="app.css">
 
-  <script src="../components/webcomponentsjs/webcomponents.js">
-  </script>
+  <script src="../components/webcomponentsjs/webcomponents.js"></script>
   <!-- The font-roboto import loads the RobotoDraft font using the Google Fonts API -->
-  <link rel="import"
-    href="../components/font-roboto/roboto.html">
-
+  <link rel="import" href="../components/font-roboto/roboto.html">
+  
+  <link rel="import" href="../components/core-header-panel/core-header-panel.html">
+  <link rel="import" href="../components/core-toolbar/core-toolbar.html">
+  <link rel="import" href="../components/paper-tabs/paper-tabs.html">
+  
 </head>
 <!-- The unresolved attribute on the <body> element is used to prevent a flash of unstyled content (FOUC) on browsers that lack native support for custom elements. -->
-<body unresolved>
+<!-- The fullbleed attribute will cause the <body> to completely fill the viewport, removing all margin and padding around the edges. -->
+<!-- When a container includes the layout attribute, it can become a flex container. You can specify horizontal or vertical to change the orientation -->
+<!-- Children of an element using the layout attribute can use flex attributes to control their own sizing. The flex attribute tells the child to take up as much space as it possibly can. -->
+<body unresolved fullbleed layout vertical>
+  <!-- Add a toolbar -->
+  <core-header-panel flex>
+  
+    <core-toolbar>
+    </core-toolbar>
+  
+    <!-- main page content will go here --> 
+  
+  </core-header-panel>
 
   <script src="app.js"></script>
 </body>
