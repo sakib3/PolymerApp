@@ -1,8 +1,8 @@
-<link rel="import"
-  href="../components/polymer/polymer.html">
-<link rel="import"
-  href="../components/core-icon-button/core-icon-button.html">
+<link rel="import"  href="../components/polymer/polymer.html">
+<link rel="import"  href="../components/core-icon-button/core-icon-button.html">
 
+<!-- The <polymer-element> element is how you define a new custom element in Polymer. In this case, you're creating an element called "post-card". -->
+<!-- Used inside a shadow DOM tree, the :host pseudo-class matches the element that hosts the tree. In this case, it matches the <post-card> element. -->
 <polymer-element name="post-card">
   <template>
     <style>
@@ -18,12 +18,33 @@
     .card-header {
       margin-bottom: 10px;
     }
-    /* Add your styles here: */
+    
+    /* The ::content pseudo element selects an insertion point (created by a <content> tag).*/
+    .card-header ::content h2 {
+      margin: 0;
+      font-size: 1.8rem;
+      font-weight: 300;
+    }
+    .card-header ::content img {
+      width: 70px;
+      border-radius: 50%;
+      margin: 10px;
+    }
+    
 
     </style>
 
     <!-- CARD CONTENTS GO HERE -->
-
+    <!-- layout horizontal center creates a flexbox layout with children arranged horizontally, and centered vertically. -->
+    <!-- The three <content> elements create insertion points.  -->
+    <div class="card-header" layout horizontal center>
+      <!-- Any <img> children match the first <content> tag and are inserted here. -->
+      <content select="img"></content>
+      <!-- The second <content> tag selects any h2 children.-->
+      <content select="h2"></content>
+    </div>
+    <!-- The final <content> tag, with no select attribute, selects any nodes that haven't already been inserted. (This is probably the most common form of <content> element.) -->
+    <content></content>
   </template>
   <script>
   Polymer({

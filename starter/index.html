@@ -16,7 +16,7 @@
   <link rel="import" href="../components/core-header-panel/core-header-panel.html">
   <link rel="import" href="../components/core-toolbar/core-toolbar.html">
   <link rel="import" href="../components/paper-tabs/paper-tabs.html">
-  
+  <link rel="import" href="post-card.html">
 </head>
 <!-- The unresolved attribute on the <body> element is used to prevent a flash of unstyled content (FOUC) on browsers that lack native support for custom elements. -->
 <!-- The fullbleed attribute will cause the <body> to completely fill the viewport, removing all margin and padding around the edges. -->
@@ -40,7 +40,16 @@
     </core-toolbar>
   
     <!-- main page content will go here --> 
-  
+    <div class="container" layout vertical center>
+    
+      <post-card>
+        <img width="70" height="70" 
+          src="../images/avatar-07.svg">
+        <h2>Another Developer</h2>
+        <p>I'm composing with shadow DOM!</p>
+      </post-card>
+    
+    </div>
   </core-header-panel>
 
   <script src="app.js"></script>
