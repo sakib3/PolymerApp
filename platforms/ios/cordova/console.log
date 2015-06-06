@@ -1,0 +1,106 @@
+2015-01-06 00:17:26.285 DocFinder[17282:296242] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Data/Application/D86BE79F-5343-4596-932A-7C9963340A12/Library/Cookies/Cookies.binarycookies
+2015-01-06 00:17:26.631 DocFinder[17282:296242] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-06 00:17:26.632 DocFinder[17282:296242] Multi-tasking -> Device: YES, App: YES
+2015-01-06 00:17:26.651 DocFinder[17282:296242] Unlimited access to network resources
+2015-01-06 00:17:26.666 DocFinder[17282:296242] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-06 00:17:28.152 DocFinder[17282:296242] Resetting plugins due to page load.
+2015-01-06 00:17:28.341 DocFinder[17282:296242] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Bundle/Application/36CBAE1F-BCA4-40AE-8D2D-EC8A55EA5A65/DocFinder.app/www/index.html
+2015-01-06 06:14:29.004 DocFinder[18526:404769] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Data/Application/B5335D65-895D-49DD-9CC7-59679062A676/Library/Cookies/Cookies.binarycookies
+2015-01-06 06:14:29.319 DocFinder[18526:404769] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-06 06:14:29.320 DocFinder[18526:404769] Multi-tasking -> Device: YES, App: YES
+2015-01-06 06:14:29.336 DocFinder[18526:404769] Unlimited access to network resources
+2015-01-06 06:14:29.351 DocFinder[18526:404769] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-06 06:14:30.227 DocFinder[18526:404769] Resetting plugins due to page load.
+2015-01-06 06:14:30.580 DocFinder[18526:404769] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Bundle/Application/84FE964F-67DD-4E87-A91F-689AA8D2CABF/DocFinder.app/www/index.html
+2015-02-09 20:35:28.886 DocFinder[1306:66672] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Data/Application/46829926-EB82-499C-8066-3581FF115A49/Library/Cookies/Cookies.binarycookies
+2015-02-09 20:35:29.217 DocFinder[1306:66672] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-09 20:35:29.218 DocFinder[1306:66672] Multi-tasking -> Device: YES, App: YES
+2015-02-09 20:35:29.237 DocFinder[1306:66672] Unlimited access to network resources
+2015-02-09 20:35:29.251 DocFinder[1306:66672] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-09 20:35:30.164 DocFinder[1306:66672] Resetting plugins due to page load.
+2015-02-09 20:35:30.423 DocFinder[1306:66672] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Bundle/Application/DFE04C6B-58CE-49F8-94FE-6D58E5043422/DocFinder.app/www/index.html
+2015-02-09 20:36:04.934 DocFinder[1306:66672] Resetting plugins due to page load.
+2015-02-09 20:36:05.054 DocFinder[1306:66672] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Bundle/Application/DFE04C6B-58CE-49F8-94FE-6D58E5043422/DocFinder.app/www/index.html
+2015-02-11 18:43:12.615 DocFinder[941:18147] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Data/Application/7DD23E87-A379-45A9-8A78-6B6DBD955734/Library/Cookies/Cookies.binarycookies
+2015-02-11 18:43:12.979 DocFinder[941:18147] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-11 18:43:12.980 DocFinder[941:18147] Multi-tasking -> Device: YES, App: YES
+2015-02-11 18:43:12.997 DocFinder[941:18147] Unlimited access to network resources
+2015-02-11 18:43:13.011 DocFinder[941:18147] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-11 18:43:13.933 DocFinder[941:18147] Resetting plugins due to page load.
+2015-02-11 18:43:14.230 DocFinder[941:18147] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Bundle/Application/67E402BF-3C90-4E8A-B09B-F9DA92E10E24/DocFinder.app/www/index.html
+2015-02-11 18:45:34.890 DocFinder[1197:19350] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Data/Application/8ADED497-BA0C-4198-9366-664504EB22BE/Library/Cookies/Cookies.binarycookies
+2015-02-11 18:45:34.993 DocFinder[1197:19350] Apache Cordova native platform version 3.7.0 is starting.
+2015-02-11 18:45:34.994 DocFinder[1197:19350] Multi-tasking -> Device: YES, App: YES
+2015-02-11 18:45:34.995 DocFinder[1197:19350] Unlimited access to network resources
+2015-02-11 18:45:34.998 DocFinder[1197:19350] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-02-11 18:45:35.405 DocFinder[1197:19350] Resetting plugins due to page load.
+2015-02-11 18:45:35.579 DocFinder[1197:19350] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Bundle/Application/573A406B-B721-43D8-89F6-2E78A1A130A2/DocFinder.app/www/index.html
+2015-02-11 18:46:40.846 DocFinder[1197:19350] Resetting plugins due to page load.
+2015-02-11 18:46:40.895 DocFinder[1197:19350] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/BC1AA468-1060-4243-843D-1AC8D9A705C8/data/Containers/Bundle/Application/573A406B-B721-43D8-89F6-2E78A1A130A2/DocFinder.app/www/index.html
+2015-02-11 18:47:13.438 DocFinder[1197:19810] Terminating since there is no system app.
+2015-06-06 19:26:13.009 TestApp[28621:1080177] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/CD2E7413-60DA-4E59-9243-4501D8394BC0/data/Containers/Data/Application/CE737956-D8BC-4D3A-A154-8C0FCFF70E86/Library/Cookies/Cookies.binarycookies
+2015-06-06 19:26:13.323 TestApp[28621:1080177] Apache Cordova native platform version 3.7.0 is starting.
+2015-06-06 19:26:13.323 TestApp[28621:1080177] Multi-tasking -> Device: YES, App: YES
+2015-06-06 19:26:13.341 TestApp[28621:1080177] Unlimited access to network resources
+2015-06-06 19:26:13.350 TestApp[28621:1080177] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-06 19:26:14.193 TestApp[28621:1080177] Resetting plugins due to page load.
+2015-06-06 19:26:14.539 TestApp[28621:1080177] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/CD2E7413-60DA-4E59-9243-4501D8394BC0/data/Containers/Bundle/Application/D60346B3-7C52-4D21-8F00-574A510BB645/TestApp.app/www/index.html
+2015-06-06 19:26:48.525 TestApp[28621:1081235] Communications error: <OS_xpc_error: <error: 0x2dfe5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2dfe83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-06-06 19:29:18.678 TestApp[29172:1085422] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/CD2E7413-60DA-4E59-9243-4501D8394BC0/data/Containers/Data/Application/0B7235C3-ECB7-48C4-A20B-CA10D77A9701/Library/Cookies/Cookies.binarycookies
+2015-06-06 19:29:19.028 TestApp[29172:1085422] Apache Cordova native platform version 3.7.0 is starting.
+2015-06-06 19:29:19.028 TestApp[29172:1085422] Multi-tasking -> Device: YES, App: YES
+2015-06-06 19:29:19.038 TestApp[29172:1085422] Unlimited access to network resources
+2015-06-06 19:29:19.051 TestApp[29172:1085422] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-06 19:29:19.770 TestApp[29172:1085422] Resetting plugins due to page load.
+2015-06-06 19:29:20.115 TestApp[29172:1085422] Finished load of: file:///Users/sakib/Library/Developer/CoreSimulator/Devices/CD2E7413-60DA-4E59-9243-4501D8394BC0/data/Containers/Bundle/Application/C3CA53E3-E165-462C-AD22-168B553A16B0/TestApp.app/www/index.html

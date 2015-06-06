@@ -1,0 +1,7 @@
+export ANDROID_HOME=/Users/sakib/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+export ANT_HOME=/usr/local/lib/node_modules/ant/ant/
+export PATH=${PATH}:$ANT_HOME/bin
+
+export ANDROID_EMULATOR="/Users/sakib/Library/Android/sdk/tools/emulator -avd Nexus_S_API_19 -netspeed full -netdelay none"
