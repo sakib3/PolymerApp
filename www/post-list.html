@@ -22,10 +22,13 @@
     <div layout vertical center>
     
       <template repeat="{{post in posts}}">
-        <post-card>
-          <img src="{{post.avatar}}" width="70" height="70">
-          <h2>{{post.username}}</h2>
-          <p>{{post.text}}</p>
+        <post-card
+          favorite="{{post.favorite}}"
+          on-favorite-tap="{{handleFavorite}}"
+          hidden?="{{show == 'favorites' && !post.favorite}}">
+                <img src="{{post.avatar}}" width="70" height="70">
+                <h2>{{post.username}}</h2>
+                <p>{{post.text}}</p>
         </post-card>
       </template>
     
@@ -33,8 +36,12 @@
   </template>
 
   <script>
+  // sender.templateInstance.model is a reference to the model data used to construct a template instance. In this case, it includes the post object used to create a <post-card>, so you can retrieve its ID and favorite value.
   Polymer({
-    // define the element's JavaScript prototype here
+    handleFavorite: function(event, detail, sender) {
+      var post = sender.templateInstance.model.post;
+      this.$.service.setFavorite(post.uid, post.favorite);
+    }
   });
   </script>
 

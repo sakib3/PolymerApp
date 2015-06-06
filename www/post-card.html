@@ -31,7 +31,15 @@
       margin: 10px;
     }
     
-
+    core-icon-button {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      color: #636363;
+    }
+    :host([favorite]) core-icon-button {
+      color: #da4336;
+    }
     </style>
 
     <!-- CARD CONTENTS GO HERE -->
@@ -43,12 +51,31 @@
       <!-- The second <content> tag selects any h2 children.-->
       <content select="h2"></content>
     </div>
+    <!-- As the name implies, <core-icon-button> creates a button with an embedded icon. Polymer includes several sets of scalable icons. -->
+    <!-- The icon="favorite" attribute selects the heart icon from the default icon set. -->
+    <!-- The on-tap="{{favoriteTapped}}" attribute specifies a method to call on the post-card element when the button is tapped.-->
+    
+    <core-icon-button
+      icon="favorite"
+      on-tap="{{favoriteTapped}}">
+    </core-icon-button>
     <!-- The final <content> tag, with no select attribute, selects any nodes that haven't already been inserted. (This is probably the most common form of <content> element.) -->
     <content></content>
   </template>
+  <!-- The reflect element is responsible to make the favourite value in the dom-->
   <script>
   Polymer({
-    // define the element's JavaScript prototype here
+    publish: {
+      favorite: {
+        value: false,
+        reflect: true
+      }
+    },
+    favoriteTapped: function(event, detail, sender) {
+      this.favorite = !this.favorite;
+      // fires the favourite-tap evevnt to notify its parent about the changes of favourite state
+      this.fire('favorite-tap');
+    }
   });
   </script>
 </polymer-element>
